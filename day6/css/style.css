@@ -1,0 +1,32 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+#mainGrid{
+  width: 800px;
+  height: 800px;
+  margin-left: 25%;
+}
+
+#selectSquaresTitle{
+	float: left;
+}
+
+#selectSquares{
+	margin-bottom: 2em;
+}
+
+#select{
+	margin-left: 1em;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.square{
+	background-color: #eee;
+	float: left;
+	border: 1px solid #555;
+}
