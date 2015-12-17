@@ -17,7 +17,7 @@ function grid(numOfSquares) {
 	var dimensions = Math.floor(750/numOfSquares);
     
     for(var i = 0 ; i < numOfSquares*numOfSquares; i++){
-    	console.log(i);
+    	
 	    var square = $('<div></div>');
 	    square.attr('style',"width: "+dimensions+"px; height: "+dimensions+"px;");
     	square.attr('class', 'square');
