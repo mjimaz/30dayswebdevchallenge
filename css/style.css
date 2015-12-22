@@ -1,0 +1,33 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background: #ECECED;
+}
+
+div{
+  margin-top: 2em;
+}
+
+div:nth-child(odd)  {
+  display: inline-block; 
+  width:35%;
+  margin-left: 2em;
+}
+
+div:nth-child(even)    {
+  display: inline-block;
+  width:35%;
+  margin-left: 20em;      
+}
+
+
+a{
+  color: orange;
+  text-decoration: none;
+}
+
+#title{
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+}

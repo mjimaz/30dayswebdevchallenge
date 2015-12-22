@@ -1,0 +1,26 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+td{
+  width: 100px;
+  height: 100px;
+}
+
+table{
+  
+    margin-left: 25em;
+    margin-top: 5em;
+}
+
+#announcement{
+   margin-left: 15em;
+  margin-top: 5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+td:hover{
+  cursor: pointer;
+}
